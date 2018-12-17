@@ -1,0 +1,55 @@
+/*
+Name: Tal Wolman 
+Date: Nov 14, 2018
+Section: CSE 154 AA
+This is the index.css page for my debugging page of web development work.
+It is used by the debug page of the site a consistent look and feel.
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+#response {
+  display: flex;
+  margin-left: 200pt;
+  margin-right: 200pt;
+  flex-flow: column;
+  align-items: center;
+}
+
+img {
+  width: 45%;
+  height: 45%;
+}
+
+h1 {
+  font-size: 45pt;
+}
+
+p {
+  margin-left: 150pt;
+  margin-right: 150pt;
+}
+
+button {
+  font-size: 12pt;
+  border-radius: 5pt;
+  background-color: grey;
+  border: 1pt;
+  padding: 10pt;
+  color: white;
+  margin: 10pt;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+.hidden {
+  display: none;
+}
